@@ -15,17 +15,29 @@ ul {
     list-style: none;
 }
 
-.header-link-a {
-    font-family: 'Raleway';
+a {
+    text-decoration: none;
+}
+.header-link-web {
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.3;
     letter-spacing: 0.03em;
     color: var(--accent-color);
 }
+.header-link-a {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    color: var(--second-basic-color);
+}
 
 .header-link-nav {
     font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     color: var(--second-basic-color);
 }
@@ -38,34 +50,63 @@ ul {
 .header-info-b {
     font-size: 16px;
     line-height: 1.5;
-    color: var(--second-basic-color);
+    color: var(--first-basic-color);
 }
 
 .header-info-b:focus,
 .header-info-b:hover {
     color: var(--accent-color);
 }
-
-.center-caption {
+.hero {
+    width: 1440px;
+    height: 603px;
+    background-color: var(--second-basic-color);
+}
+.hero-top {
+    font-weight: 600;
     font-size: 56px;
     line-height: 1.1;
     color: var(--primary-white-color);
+    text-align: center;
 }
-.center-b {
+.hero-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     font-size: 16px;
     line-height: 1.2;
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     cursor: pointer;
     letter-spacing: 0.04em;
-    width: 170px;
-    height: 51px;
+    align-items: center;
 }
-
+.top-link-caption {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.top-link-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
 .center-b:hover,
 .center-b:focus {
     background-color: #404BBF;
 }
+
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  } 
 
  .advanteges .top-link-caption {
     font-size: 20px;
@@ -85,6 +126,12 @@ ul {
     color: var(--second-basic-color);
 }
 
+.meet-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
 .meet-title-link-caption {
     font-size: 20px;
     line-height: 1.2;
@@ -99,9 +146,17 @@ ul {
 .footer {
     background-color: #2E2F42;
 }
+.footer .logo-color {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
 
 .footer .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
