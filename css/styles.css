@@ -63,7 +63,7 @@ a {
     background-color: var(--second-basic-color);
 }
 .hero-top {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
     color: var(--primary-white-color);
@@ -71,7 +71,7 @@ a {
 }
 .hero-btn {
     font-family: 'Roboto', sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     color: var(--primary-white-color);
@@ -81,14 +81,15 @@ a {
     align-items: center;
 }
 .top-link-caption {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
+    color: var(--second-basic-color);
 }
 .top-link-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
+    color: var(--first-basic-color);
 }
 .center-b:hover,
 .center-b:focus {
@@ -126,10 +127,18 @@ a {
     color: var(--second-basic-color);
 }
 
+.meet {
+    background-color: #F4F4FD;
+}
+
+.meet-title-color {
+    background-color: #FFFFFF;
+}
 .meet-title {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
+    color: var(--second-basic-color);
 }
 
 .meet-title-link-caption {
