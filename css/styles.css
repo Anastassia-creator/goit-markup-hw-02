@@ -58,8 +58,6 @@ a {
     color: var(--accent-color);
 }
 .hero {
-    width: 1440px;
-    height: 603px;
     background-color: var(--second-basic-color);
 }
 .hero-top {
@@ -178,4 +176,35 @@ a {
     line-height: 1.5;
     font-weight: 400;
     color: #E7E9FC;
+}
+
+
+
+/* _______PORTFOLIO______ */
+
+.portfolio-btn { 
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+    color: var(--accent-color);
+    background-color: #F4F4FD;
+    cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.work-caption {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--second-basic-color);
+}
+.work-text {
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--first-basic-color);
 }
